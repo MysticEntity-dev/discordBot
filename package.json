@@ -1,0 +1,17 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "discordBot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "author": "Jan Schmid",
+  "license": "ISC",
+  "dependencies": {
+    "discord-nsfw": "^1.3.0",
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0"
+  }
+}
